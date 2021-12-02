@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root {
+    --font: "Josefin Sans";
+    --color1: #13287e;
+    --color2: #008aff;
+}
+
+
+/* ENTERANCE */
+
+.enterance {
+    font: 300 15px var(--font);
+    background-color: #ecf6fe;
+    line-height: 35px;
+    color: var(--color2);
+}
+
+
+/* MAIN */
+
+@media (max-width: 992px) {
+    .choose-p {
+        font: 600 82px var(--font) !important;
+    }
+    .second {
+        padding-top: 70px;
+        flex-wrap: wrap;
+    }
+    .btn-1 {
+        justify-content: start !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .choose-p {
+        font: 600 100px var(--font) !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .choose-card {
+        box-shadow: 10px 10px 23px grey !important;
+    }
+    .firstbtn {
+        margin-bottom: 40px !important;
+    }
+    #i-end p {
+        text-align: left !important;
+    }
+    #main-2 {
+        padding-top: 239px !important;
+    }
+    #we {
+        font: 200 28px var(--font)!important;
+    }
+    body {
+        margin: 0 !important;
+    }
+    .new h1 {
+        font: 200 38px var(--font)!important;
+    }
+    .first {
+        justify-content: center;
+    }
+    .main {
+        background-position: top !important;
+    }
+    #save {
+        font: 300 20px var(--font) !important;
+    }
+    #lorem {
+        font: 200 15px var(--font) !important;
+    }
+}
+
+.main {
+    background-image: linear-gradient(rgba(236, 236, 231, 0.5), rgba(151, 36, 36, 0.2)), url("../img/cleaner.png") !important;
+    background-color: #f4faff;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.main li a {
+    font: 400 20px var(--font);
+    line-height: 19px;
+    color: var(--color2);
+    display: inline-block;
+}
+
+#save {
+    font: 300 33px var(--font);
+    color: var(--color2);
+}
+
+#we {
+    font: 400 68px var(--font);
+    color: var(--color1);
+}
+
+#lorem {
+    font: 300 20px var(--font);
+    max-width: 675px;
+    height: 58px;
+    line-height: 35px;
+    color: #474747;
+    margin-bottom: 50px !important;
+}
+
+.active {
+    background-color: var(--color2);
+    color: white !important;
+}
+
+#yellou {
+    color: black !important;
+    background-color: #ffe824;
+}
+
+li a:hover {
+    background-color: #008aff !important;
+    color: white !important;
+}
+
+.firstbtn {
+    font: 550 14px var(--font);
+    background-color: #ffe824;
+    border: none;
+}
+
+#main-2 {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+#clean {
+    color: var(--color2);
+}
+
+
+/* SECOND PART */
+
+#card1 {
+    max-width: 500px;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+
+#card2 {
+    max-width: 500px;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+
+.card {
+    border: none !important;
+}
+
+.card-text {
+    font: 300 20px var(--font);
+    height: 58px;
+    line-height: 35px;
+    color: #474747;
+}
+
+.card ul li a {
+    text-decoration: none;
+}
+
+.card ul {
+    list-style: none;
+}
+
+.card ul li::before {
+    content: "\2022";
+    color: var(--color2);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.col h3 {
+    font: 400 33px var(--font);
+    color: var(--color2);
+}
+
+.col h5 {
+    font: 300 20px var(--font);
+    color: #474747;
+}
+
+#like {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 36%;
+    background-color: #fff;
+}
+
+h1 {
+    color: var(--color1);
+    font-weight: 400;
+    font-family: "Josefin Sans";
+}
+
+.why-images {
+    max-width: 100px;
+}
+
+.why-text {
+    font: 400 28px var(--font);
+    color: var(--color1);
+}
+
+.why-p {
+    font: 300 19px var(--font);
+    line-height: 30px;
+    color: #474747;
+}
+
+.hr {
+    border: 1.5px solid #fbff00 !important;
+    width: 120px;
+    margin: auto !important;
+}
+
+
+/* FOURTH PART */
+
+.what-bg {
+    background-image: linear-gradient(rgba(236, 236, 231, 0.5), rgba(255, 255, 255, 0.9)), url("../img/kitchen.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.what-bg h3 {
+    color: #13287e;
+    font-family: var(--font);
+    text-align: center;
+    font-weight: 600;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.what-p {
+    max-width: 670px;
+    text-align: center;
+    margin: auto;
+    font: 300 20px var(--font);
+    color: #474747;
+}
+
+.what-img {
+    border: none;
+    border-radius: 50%;
+}
+
+
+/* FIFTH PART */
+
+.choose-h2 {
+    color: #13287e;
+    font-weight: 600;
+    font-family: var(--font);
+}
+
+.choose-p {
+    font: 600 120px var(--font);
+    color: #008aff;
+    display: inline;
+}
+
+.choose-sup {
+    font: 400 40px var(--font);
+    color: #474747;
+}
+
+.choose-card:hover {
+    box-shadow: 10px 10px 23px grey;
+}
+
+.choose-c-p {
+    font: 300 17px var(--font);
+    line-height: 35px;
+    color: #474747;
+    text-align: center
+}
+
+
+/* SIXTH PART */
+
+.new {
+    background-image: url("../img/striped.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.client {
+    position: absolute;
+    top: -16px;
+}
+
+.new h1 {
+    font: 600 68px var(--font);
+    color: var(--color1);
+}
+
+.new p {
+    font: 300 20px var(--font);
+    line-height: 35px;
+    color: #474747;
+}
+
+.new span {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    left: -35px;
+    top: 10px;
+    text-shadow: 2px 2px #8f8c8c;
+}
+
+
+/* SEVENTH PART */
+
+.latest-h1 {
+    font: 400 33px var(--font);
+    color: #13287e;
+}
+
+.latest-p {
+    max-width: 675px;
+}
+
+.latest-t {
+    font: 300 20px var(--font) !important;
+    max-width: 374px !important;
+    color: var(--color1) !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+
+/* EIGHTH PART */
+
+#ml {
+    position: relative;
+    padding: 5px 55px 5px 10px;
+}
+
+#btn {
+    border: none;
+    background-color: #fff;
+    position: absolute;
+    right: 133px;
+    margin-top: 5px;
+}
+
+#i-end i {
+    color: #474747;
+}
+
+#end p {
+    max-width: 1171px;
+    font: 300 12pv var(--font);
+    color: #474747;
+    text-align: center;
+}
